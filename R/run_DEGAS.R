@@ -1,7 +1,6 @@
 run_DEGAS_SCST <- function(DEGAS_data_file, model_type, data_name, loss_type, transfer_type, model_save_dir,
                            lambda1 = 1.0, lambda2 = 3.0, lambda3 = 3.0, tot_seeds = 10, tot_iters = 300, extract_embs = FALSE, random_feat = FALSE, random_perc = 0.8, early_stopping = FALSE) {
   # load required packages
-  use_condaenv("/opt/anaconda3/envs/DEGAS")
   numpy <- import("numpy")
   DEGAS_python <- import("DEGAS_python")
 
