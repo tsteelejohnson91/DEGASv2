@@ -1,6 +1,5 @@
 # Diagnostic Evidence GAuge of Single cells (DEGAS) version 2
-**This is bold**
-Package development by:
+**This is bold** Package development by:
 
 Ziyu Liu
 
