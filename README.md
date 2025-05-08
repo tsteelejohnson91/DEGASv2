@@ -1,4 +1,5 @@
 # DEGASv2
+![DEGASv2 Figure 1-2](figures/DEGASv2_fig1-2.png)
 DEGAS version 2
 
 Installation
