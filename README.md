@@ -36,3 +36,28 @@ Step 5 Install DEGASv2 in R
 
 install_github("alanli97/DEGASv2")
 
+## **Prerequisites**
+
+**OS**
+
+OSX
+
+Linux
+
+**Python packages**
+
+tensorflow
+
+functools
+
+numpy
+
+math
+
+**R**
+
+Rtsne
+
+ggplot2
+
+DESeq2
