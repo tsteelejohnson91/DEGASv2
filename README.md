@@ -1,4 +1,4 @@
-# DEGASv2
+# Diagnostic Evidence GAuge of Single cells (DEGAS) version 2
 Package development by:
 
 Ziyu Liu
@@ -7,7 +7,7 @@ Travis S. Johnson (https://github.com/tsteelejohnson91)
 
 Sihong Li (https://github.com/alanli97)
 ![DEGASv2 Figure 1-2](figures/DEGASv2_fig1-2.png)
-DEGAS version 2
+DEGASv2
 
 Installation
 
