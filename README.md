@@ -10,7 +10,7 @@
 ![DEGASv2 Figure 1-2](figures/DEGASv2_fig1-2.png)
 DEGASv2
 
-Installation
+## **Installation**
 
 Step 1 Install devtools in R
 
