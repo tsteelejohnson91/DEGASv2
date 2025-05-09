@@ -105,7 +105,6 @@ folder_path <- paste0("/Users/lisih/Downloads/checkpoints_MMRF_Response_Wasserst
 degas_sc_results <- run_DEGAS_SCST(paste0("/Users/lisih/Downloads/MMRF/Response.RData"), "ClassClass", "MMRF_Response", "cross_entropy", "Wasserstein", folder_path, tot_seeds = 10, tot_iters = 500, lambda1 = 3.0) 
 visualization_MMRF(folder_path, "Response Score") 
 ```
-[📄 View Box Plot (PDF)](/MM_Response_Wasserstein/box.pdf)
 
 Extended Response
 ```{r}
