@@ -122,7 +122,7 @@ visualization_MMRF(folder_path, "Progression Free Survival Hazard")
 ![Survival Boxplot](MM_SurvPFS_ClassClass_Wasserstein/box.png)
 ![Survival UMAP](MM_SurvPFS_ClassClass_Wasserstein/umap.png)
 
-# Visualization three dimensional plot
+# Visualization of three dimensional plot
 ```{r}
 Survival_Hazard <- read.csv2(paste0("/N/u/lisih/Quartz/Downloads/MMRF/checkpoints_MMRF_SurvPFS_ClassClass_Wasserstein_2024_10_30/summary_mean.csv"), sep = ",")$hazard
 Response_Score <- read.csv2(paste0("/N/u/lisih/Quartz/Downloads/MMRF/checkpoints_MMRF_Response_Wasserstein_2024_10_30/summary_mean.csv"), sep = ",")$hazard
