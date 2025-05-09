@@ -112,6 +112,9 @@ folder_path <- paste0("/N/u/lisih/Quartz/Downloads/MMRF/checkpoints_MMRF_ExtResp
 degas_sc_results <- run_DEGAS_SCST(paste0("/N/u/lisih/Quartz/Downloads/run_DEGAS_from_pkg/MMRF/ExtResponse.RData"), "ClassClass", "MMRF_ExtResponse", "cross_entropy", "Wasserstein", folder_path, lambda1 = 3.0, tot_seeds = 10, tot_iters = 500) 
 visualization_MMRF(folder_path, "ExtResponse Score") 
 ```
+![Extended Response Boxplot](MM_example/MM_ExtResponse_Wasserstein/box.png)
+![Extended Response UMAP](MM_example/MM_ExtResponse_Wasserstein/umap.png)
+
 
 Survival (Progression Free Survival time) 
 
