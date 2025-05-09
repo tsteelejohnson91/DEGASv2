@@ -125,7 +125,8 @@ folder_path <- paste0("/N/u/lisih/Quartz/Downloads/MMRF/checkpoints_MMRF_SurvPFS
 degas_sc_results <- run_DEGAS_SCST(paste0("/N/u/lisih/Quartz/Downloads/run_DEGAS_from_pkg/MMRF/SurvPFS.RData"), "ClassClass", "MMRF_SurvPFS", "cross_entropy", "Wasserstein", folder_path, tot_seeds = 10, tot_iters = 500, lambda1 = 3.0) 
 visualization_MMRF(folder_path, "Progression Free Survival Hazard") 
 ```
-
+![Survival Boxplot](MM_SurvPFS_ClassClass_Wasserstein/box.png)
+![Survival UMAP](MM_SurvPFS_ClassClass_Wasserstein/umap.png)
 
 visualization three dimension plot
 ```{r}
