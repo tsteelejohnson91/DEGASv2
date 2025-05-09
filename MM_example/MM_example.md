@@ -1,8 +1,5 @@
----
-title: "MM_example"
-output: html_document
-date: "2024-5-5"
----
+# Load required packages
+
 ```{r}
 Sys.setlocale("LC_CTYPE", "en_US.UTF-8")
 
