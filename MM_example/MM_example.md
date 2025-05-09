@@ -183,6 +183,11 @@ heatmap_hazard <- function(sc_cluster) {
 lapply(c(11, 13, 20, 22, 24), heatmap_hazard)
 ```
 ![Heatmap 11](MM_heatmaps_&_barplot/11.png)
+![Heatmap 13](MM_heatmaps_&_barplot/13.png)
+![Heatmap 20](MM_heatmaps_&_barplot/20.png)
+![Heatmap 22](MM_heatmaps_&_barplot/22.png)
+![Heatmap 24](MM_heatmaps_&_barplot/24.png)
+
 
 ```{r}
 lm.coeff <- function(cluster) {
