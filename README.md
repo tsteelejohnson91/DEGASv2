@@ -14,7 +14,9 @@ DEGASv2
 
 Step 1 Install devtools in R
 
+```{r}
 install.packages("devtools")
+```
 
 Step 2 Install Biocmanager in R
 
