@@ -179,6 +179,7 @@ heatmap_hazard <- function(sc_cluster) {
 }
 lapply(c(11, 13, 20, 22, 24), heatmap_hazard)
 ```
+![Heatmap 11](MM_heatmaps_&_barplot/11.png)
 
 ```{r}
 lm.coeff <- function(cluster) {
@@ -214,3 +215,4 @@ p <- ggplot(df_long, aes(x = Cluster, y = Coeff, fill = Resp_or_ExtResp)) +
 ggsave("/N/u/lisih/Quartz/Downloads/MMRF/checkpoints_MMRF/coeff.png", plot = p, width = 16, height = 6, dpi = 300)
 
 ```
+![Barplot](MM_heatmaps_&_barplot/coeff.png)
