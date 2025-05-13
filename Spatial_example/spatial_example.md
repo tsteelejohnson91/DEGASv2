@@ -1,9 +1,4 @@
----
-title: "DEGAS_erickson"
-output: html_document
-date: "2025-05-10"
----
-
+# Load required packages
 
 ```{r}
 library(ggplot2)
@@ -20,8 +15,8 @@ library(PRROC)
 ```
 
 
-Run the Erickson 1 dataset
-create Seurat Object for each ST slides
+# Run the spatial (Erickson) dataset
+# create Seurat Object for each ST slides
 
 ```{r}
 root_dir <- "/N/u/lisih/Quartz/Desktop/erickson_patient1"
@@ -47,7 +42,7 @@ for (st_name in folder_names[2:length(folder_names)]) {
 }
 ```
 
-Load all ST and patient datasets
+# Load all ST and patient datasets
 ```{r}
 load(paste0(root_dir, "/Pat_raw_counts/PatDat.RData"))
 st_list <- list()
@@ -62,14 +57,14 @@ for (st_name in folder_names[2:length(folder_names)]){
 }
 ```
 
-DEGAS Preprocessing all
+# DEGAS Preprocessing all
 
 ```{r}
 DEGAS_preprocessing(bulk_dataset = bulk_dataset, phenotype = phenotype, st_list = st_list, results_dir = "erickson_patient1",
                     st_lab_list = c(), model_type = "survival", diff_expr_files = diff_expr_files)
 ```
 
-Now let's visualize erickson1 dataset
+# Visualize spatial (Erickson) dataset
 
 ```{r}
 plot_erickson1 <- function(folder_path) {
@@ -207,7 +202,7 @@ plot_erickson1 <- function(folder_path) {
 ```
 
 
-Load python env and run the model
+# Load Python environment and run the model
 
 ```{r}
 results_df <- data.frame()
