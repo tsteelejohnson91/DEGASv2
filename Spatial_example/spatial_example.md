@@ -15,8 +15,7 @@ library(PRROC)
 ```
 
 
-# Run the spatial (Erickson) dataset
-# create Seurat Object for each ST slides
+# Create Seurat Object for each ST slides
 
 ```{r}
 root_dir <- "/N/u/lisih/Quartz/Desktop/erickson_patient1"
