@@ -220,6 +220,12 @@ for (data_type in c("SDE")) {
   }
 }
 ```
+![Boxplot](Spatial_example/figures/box.png)
+![auc_roc](Spatial_example/figures/auc_roc.png)
+![Boxplot2](Spatial_example/figures/box2.png)
+![Scatterplot](Spatial_example/figures/H2_1_scatter.png)
+
+
 
 
 
