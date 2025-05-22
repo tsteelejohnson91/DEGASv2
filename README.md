@@ -34,7 +34,7 @@ BiocManager::install("DESeq2")
 Step 4 Install DEGASv2 in R
 
 ```{r}
-install_github("alanli97/DEGASv2")
+install_github("tsteelejohnson91/DEGASv2")
 ```
 
 ## **Prerequisites**
